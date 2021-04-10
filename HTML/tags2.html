@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Tags</title>
+		<meta charset="utf-8">
+	</head>
+		<!-- Defines a form for user input -->
+		<form action="tags.html" method="post">
+			<!-- The action tag specifies where it sends 
+				the data. The method specifies the html verb
+				get or post, i.e, send or receive data -->
+			<div>
+				What is your name?
+				<input type="text">
+			</div>
+
+			<!--Radio button-->
+			<div>
+				Are you male or female?
+				<input type="radio" name="gender"> male
+				<input type="radio" name="gender"> female
+				<input type="radio" name="gender"> none of the above
+			</div>
+
+			<!-- creates a dropdown list -->
+			<div>
+				Favourite pet
+				<select>
+					<option value="">Choose</option>
+					<option value="Chase">Chase</option>
+					<option value="Nemo">Nemo</option>
+				</select>
+			</div>
+
+			<!-- creates a textbox area -->
+			<div>
+				Send Chase a nice message-<br>
+				<textarea></textarea>
+			</div>
+
+			<!-- Creates a checkbox -->
+			<div>
+				Check if you eat ice-cream-
+				<input type="checkbox">
+			</div>
+
+			<button type="button">Click me!</button>
+			<button type="submit">Send Data</button>
+		</form>
+	</body>
+</html>
